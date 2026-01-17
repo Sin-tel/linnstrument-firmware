@@ -34,9 +34,9 @@ For any questions about this, contact Roger Linn Design at support@rogerlinndesi
 /*************************************** INCLUDED LIBRARIES **************************************/
 #include <SPI.h>
 #include <limits.h>
-#include <DueFlashStorage.h>
-#include <efc.h>
-#include <flash_efc.h>
+#include "src/DueFlashStorage/src/DueFlashStorage.h"
+#include "src/DueFlashStorage/src/efc.h"
+#include "src/DueFlashStorage/src/flash_efc.h"
 
 #include "ls_debug.h"
 #include "ls_channelbucket.h"
